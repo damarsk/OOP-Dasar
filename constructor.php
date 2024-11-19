@@ -10,6 +10,7 @@ class Produk {
            $penerbit,
            $harga;
     
+    //    Constructor dipanggil saat sebuah instance dari kelas dibuat.
     public function __construct($judul = "judul", $penulis = "penulis", $penerbit = "penerbit", $harga = 0) {
         $this->judul = $judul;
         $this->penulis = $penulis;
